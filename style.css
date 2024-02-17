@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #17181f;
+    height: 100vh;
+    width: 100%;
+       }
+.main{
+    background: #17181f;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   box-sizing: border-box;
+   margin: 40px;
+    width: 90%;
+    height: 40vh;
+  background-color: #283618;
+  color: #ddd;
+ padding: 50px;
+ flex-wrap: wrap;
+ overflow: hidden;
+ flex: 1;
+} 
+
+
+.motors{
+
+}
+.customer{
+
+}
+.quick{
+
+}
+.news{
+
+}
+.follow{
+    display: flex;
+ margin: 5px;
+    padding: 20px;
+    
+}
+.facebook{
+    margin-left: 10px;
+}
+.instagram{
+    margin-left: 10px;
+}
+.twiter{
+    margin-left: 10px;
+}
+.pin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*  */
+.space{
+    margin-right: 10px;
+}
+.line{
+    background-color: black;
+    width: 0.1%;
+    height: 30vh;
+}
+#btn{
+    background-color: rgba(255, 0, 0, 0.719);
+    color: #ddd;
+    width: 40px;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: darkgreen;
+}
+.send{
+    display: flex;
+
+}
+#user-email{
+    border-radius: 10px;
+    background: transparent;
+}
+#user-email:hover{
+    background: #ddd;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 5px;
+    
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.line1{
+width: 75px;
+height: 5px;
+background-color: #17181f;
+}
+.line1:hover{
+    background-color: #c11;
+}
+.line2{
+    width: 75px;
+    height: 5px;
+    background-color: #c11;
+}
+.line2:hover{
+    background-color: #17181f;
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+}
+.company{
+    color: goldenrod;
+}
